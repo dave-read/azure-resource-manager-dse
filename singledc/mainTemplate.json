@@ -188,6 +188,9 @@
           },
           "subnetName": {
             "value": "[variables('subnetName')]"
+          },
+          "namespace": {
+            "value": "[parameters('namespace')]"
           }
         }
       }
