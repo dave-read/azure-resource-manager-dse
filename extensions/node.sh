@@ -12,7 +12,7 @@ echo seed_node_location $seed_node_location
 echo unique_string $unique_string
 echo opscenter_location $opscenter_location
 
-seed_node_dns_name="$data_center_namevm0$unique_string.$seed_node_location.cloudapp.azure.com"
+seed_node_dns_name="${data_center_name}vm0$unique_string.$seed_node_location.cloudapp.azure.com"
 opscenter_dns_name="opscenter$unique_string.$opscenter_location.cloudapp.azure.com"
 
 echo "Calling dse.sh with the settings:"
